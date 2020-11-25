@@ -1,14 +1,81 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "刷单王"
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "刷单王"
+			}
+		},
+		{
+			"path": "pages/main/tab/index",
+			"style": {
+				"navigationBarTitleText": "内置组件",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/main/tab/index2",
+			"style": {
+				"navigationBarTitleText": "接口"
+			}
+		},
+		{
+			"path": "pages/main/tab/index3",
+			"style": {
+				"navigationBarTitleText": "扩展组件"
+			}
+		},
+		{
+			"path": "pages/main/tab/index4",
+			"style": {
+				"navigationBarTitleText": "模版"
+			}
 		}
-	}],
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "刷单王",
 		"navigationBarBackgroundColor": "#007AFF",
-		"backgroundColor": "#FFFFFF"
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/main/tab/index",
+				"iconPath": "static/img/component.png",
+				"selectedIconPath": "static/img/componentHL.png",
+				"text": "内置组件"
+			},
+			{
+				"pagePath": "pages/main/tab/index2",
+				"iconPath": "static/img/api.png",
+				"selectedIconPath": "static/img/apiHL.png",
+				"text": "接口"
+			}, {
+				"pagePath": "pages/main/tab/index3",
+				"iconPath": "static/img/extui.png",
+				"selectedIconPath": "static/img/extuiHL.png",
+				"text": "扩展组件"
+			}, {
+				"pagePath": "pages/main/tab/index4",
+				"iconPath": "static/img/template.png",
+				"selectedIconPath": "static/img/templateHL.png",
+				"text": "模板"
+			}
+		]
 	}
 }
