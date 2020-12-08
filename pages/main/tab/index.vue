@@ -10,7 +10,7 @@
 		components: {},
 		data() {
 			return {
-				title: '页面1'
+				title: '任务大厅'
 			}
 		},
 		onLoad() {},

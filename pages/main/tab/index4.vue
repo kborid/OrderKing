@@ -10,7 +10,7 @@
 	export default {
 		data() {
 			return {
-				title: '页面4'
+				title: '个人中心'
 			}
 		},
 		onLoad() {

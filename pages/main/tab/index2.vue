@@ -10,7 +10,7 @@
 	export default {
 		data() {
 			return {
-				title: '页面2'
+				title: '浏览单任务'
 			}
 		},
 		onLoad() {
