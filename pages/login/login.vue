@@ -1,7 +1,7 @@
 <template>
   <view class="content">
     <view class="header">
-      <image src="../../static/img/logo.png"></image>
+      <image src="/static/img/logo/logo.png"></image>
     </view>
 
     <view class="list">
