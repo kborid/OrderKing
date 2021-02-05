@@ -6,7 +6,7 @@
 
 <script>
 	export default {
-		name: 'index1',
+		name: 'rwdt',
 		components: {},
 		data() {
 			return {

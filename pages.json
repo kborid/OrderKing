@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"path": "pages/main/tab/index",
+			"path": "pages/main/tab/rwdt",
 			"style": {
 				"navigationBarTitleText": "任务大厅",
 				"app-plus": {
@@ -43,7 +43,7 @@
 					"titleNView": {
 						"buttons": [{
 							"text": "\ue534",
-							"fontSrc": "/static/uni.ttf",
+							"fontSrc": "/static/font/uni.ttf",
 							"fontSize": "22px",
 							"color": "#FFFFFF"
 						}]
@@ -52,19 +52,19 @@
 			}
 		},
 		{
-			"path": "pages/main/tab/index2",
+			"path": "pages/main/tab/lldrw",
 			"style": {
 				"navigationBarTitleText": "浏览单任务"
 			}
 		},
 		{
-			"path": "pages/main/tab/index3",
+			"path": "pages/main/tab/wdrw",
 			"style": {
 				"navigationBarTitleText": "我的任务"
 			}
 		},
 		{
-			"path": "pages/main/tab/index4",
+			"path": "pages/main/tab/grzx",
 			"style": {
 				"navigationBarTitleText": "个人中心"
 			}
@@ -82,23 +82,23 @@
 		"borderStyle": "black",
 		"backgroundColor": "#F8F8F8",
 		"list": [{
-				"pagePath": "pages/main/tab/index",
+				"pagePath": "pages/main/tab/rwdt",
 				"iconPath": "static/img/tab/hall_a.png",
 				"selectedIconPath": "static/img/tab/hall_b.png",
 				"text": "任务大厅"
 			},
 			{
-				"pagePath": "pages/main/tab/index2",
+				"pagePath": "pages/main/tab/lldrw",
 				"iconPath": "static/img/tab/session_a.png",
 				"selectedIconPath": "static/img/tab/session_b.png",
 				"text": "浏览单任务"
 			}, {
-				"pagePath": "pages/main/tab/index3",
+				"pagePath": "pages/main/tab/wdrw",
 				"iconPath": "static/img/tab/order_a.png",
 				"selectedIconPath": "static/img/tab/order_b.png",
 				"text": "我的任务"
 			}, {
-				"pagePath": "pages/main/tab/index4",
+				"pagePath": "pages/main/tab/grzx",
 				"iconPath": "static/img/tab/my_a.png",
 				"selectedIconPath": "static/img/tab/my_b.png",
 				"text": "个人中心"

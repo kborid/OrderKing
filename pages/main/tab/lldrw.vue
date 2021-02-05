@@ -8,9 +8,10 @@
 
 <script>
 	export default {
+		name: 'lldrw',
 		data() {
 			return {
-				title: '个人中心'
+				title: '浏览单任务'
 			}
 		},
 		onLoad() {
