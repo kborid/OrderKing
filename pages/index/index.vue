@@ -30,7 +30,7 @@
 
 			goMain() {
 				uni.switchTab({
-					url: '/pages/main/tab/index'
+					url: '/pages/main/tab/rwdt'
 				})
 			}
 		}

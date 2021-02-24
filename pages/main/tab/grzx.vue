@@ -55,6 +55,11 @@
 			goLogin() {
 				if (!this.login) {
 					console.log("点击前往登录")
+					uni.navigateTo({
+						url: '/pages/login/login',
+						animationType: 'zoom-fade-out',
+						animationDuration: 500
+					})
 				}
 			}
 		}
